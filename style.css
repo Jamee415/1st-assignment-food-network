@@ -4,7 +4,6 @@ h1{
     color: #525252ed;
 }
 p{
-    
    margin-top: 50px;
    margin-bottom: 70px;
 }
@@ -38,7 +37,7 @@ body{
 }
 .flexible{
     display: flex;
-    margin-bottom: 100px;
+    margin-bottom: 0px;
 }
 .half-width img{
     width: 100%;
@@ -64,5 +63,84 @@ body{
       width: 60%;
       margin-left: 100px;
   }
-  
-
+  .recipie-section{
+      background:#f7f5f5a9;
+  }
+  .recipie-heading h1{
+    text-align: center;
+  }
+  .recipie-heading p{
+    text-align: center;
+    padding:0px 350px;
+  }
+  .recipie-part{
+      display: flex;
+      margin:0% 6%;
+  }
+  .recipie-1{
+      width: 30%;
+      padding: 25px;
+      margin: 0px 15px;
+      border-radius: 15px;
+      background: #fff;
+      box-shadow: 4px 4px 18px 0px #dcdcdc;
+  }
+  .recipie-1 img{
+      width: 100%;
+  }
+  .recipie-1 h3{
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 30px;
+    padding-top: 7px;
+  }
+  .recipie-1 p{
+    margin: 25px 0px;
+    font-size: 16px;
+  }
+  .follower-section{
+      width: 100%;
+      margin: 50px 0px;
+  }
+  .follower-box{
+      display: flex;
+      margin: 0% 7%;
+      padding: 50px 10px;
+      border-radius: 15px;
+    box-shadow: 7px 7px 20px 1px #bbb7b7;
+  }
+  .subscriber{
+    width: 30%;
+    margin: 0px 20px;
+    text-align: center;
+  }
+  .subscriber h2 {
+      font-size: 40px;
+      margin: 20px 0px;
+  }
+  .subscriber p {
+      margin: 5px 0px;
+      text-align: center;
+  }
+  footer{
+      background: #333;
+  }
+  .footer-section{
+      padding-top: 25px;
+      padding-bottom: 50px;
+  }
+  .footer-section h2{
+      text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    color: #fff;
+    font-size: 32px;
+  }
+  .footer-section h2 span{
+      color: orangered
+  }
+  .footer-section p {
+      font-size: 18px;
+      text-align: center;
+      color:#fff;
+  }
